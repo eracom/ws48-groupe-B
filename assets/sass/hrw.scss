@@ -44,3 +44,16 @@
 @import 'javascript/scrollspy.scss';
 @import 'javascript/tab.scss';
 @import 'javascript/tooltips.scss';
+
+
+.btn-primary {
+	border:1px solid #56564B;
+	border-radius:0px;
+	background-color:#ffffff;
+	color:#56564B;
+}
+
+.btn-primary:hover {
+	color:white;
+	background-color:#56564B;
+}
