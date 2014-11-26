@@ -27,8 +27,8 @@ category: Layout - Buttons
 .btn-primary {
   border:1px solid $nav-gray;
   border-radius:0px;
-  background-color:$nav-gray;
-  color:#636363;
+  background-color:#ffffff;
+  color:$nav-gray;
 }
 
 .btn-primary:hover {
@@ -36,6 +36,13 @@ category: Layout - Buttons
   color:white;
   background-color:$nav-gray;
 }
+
+.btn-link {
+  color:$nav-gray;
+  padding:0px;
+}
+
+
 
 /*doc
 ---
