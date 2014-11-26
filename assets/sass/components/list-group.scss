@@ -18,8 +18,72 @@ category: Components - List group
 ```
 */
 
+/*doc
+---
+title: List group hrw
+name: a-list-group1
+category: Components - List group
+---
 
+```html_example
+<ul class="list-group1">
+  <li class='list-group-item'>Dernières infos</li>
+  <li class="list-group-item">
+  <h4 class="titre"><a href="#">Pays du Golfe : Il faut améliorer la protection
+     des travailleurs migrants</a></h4>
+  <p class="text-courant">Les ministres du Travail du Golfe et d’Asie participent à la 3ème réunion 
+     du Dialogue d’Abou Dabi</p>
+  <p class="date">23 NOVEMBRE 2014  Communiqué de presse</p>
+     </li>
+  <li class="list-group-item"><h4 class="titre"><a href="#">Pays du Golfe : Il faut améliorer la protection
+     des travailleurs migrants</a></h4>
+  <p class="text-courant">Les ministres du Travail du Golfe et d’Asie participent à la 3ème réunion 
+     du Dialogue d’Abou Dabi</p>
+  <p class="date">23 NOVEMBRE 2014  Communiqué de presse</p></li>
+  <li class="list-group-item"><h4 class="titre"><a href="#">Pays du Golfe : Il faut améliorer la protection
+     des travailleurs migrants</a></h4>
+  <p class="text-courant">Les ministres du Travail du Golfe et d’Asie participent à la 3ème réunion 
+     du Dialogue d’Abou Dabi</p>
+  <p class="date">23 NOVEMBRE 2014  Communiqué de presse</p></li>
+  
+</ul>
 
+```
+*/
+
+.list-group-item:first-child {border-bottom-left-radius:none;
+                              border-bottom-right-radius:none; 
+                              border-color:$nav-gray;
+                              font-size: 12pt;
+                              color:$nav-gray;
+                              margin-top:5px;}
+
+.list-group-item:last-child {border-bottom-left-radius:none;
+                              border-bottom-right-radius:none; }                              
+.list-group-item {
+                  border-right: none;
+                  border-left: none;
+                  border-top: none; 
+                  width: 325px;
+                  border-bottom-width:2px;
+                  padding-bottom:0px;
+                  padding-top: 2px;}
+
+h4.titre {font-family:'Lucida Grande';
+          font-weight:bold;
+          font-size:11pt;
+          color: $titles;
+          margin-bottom: 5px;}
+p.text-courant {font-family: 'Georgia';
+                font-size:8pt;
+                color: $text-courant;
+                margin-bottom: 1px;} 
+p.date {font-size:8pt;
+        color: $name-date;}      
+a:hover { color :$name-date;
+          text-decoration: none;
+          }                 
+a {color :$titles;}
 /*doc
 ---
 title: Badge
