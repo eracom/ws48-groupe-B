@@ -24,6 +24,20 @@ category: Layout - Buttons
 */
 
 
+.btn-primary {
+  border:1px solid #636363;
+  border-radius:0px;
+  background-color:#ffffff;
+  color:#636363;
+}
+
+.btn-primary:hover {
+  border:1px solid #636363;
+  color:white;
+  background-color:#636363;
+}
+
+
 /*doc
 ---
 title: Sizes
