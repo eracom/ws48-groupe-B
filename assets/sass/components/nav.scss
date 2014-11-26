@@ -64,6 +64,29 @@ category: Components - Nav
 ```
 */
 
+.nav-pills li.active a {
+      background-color:grey;
+}
+
+.nav-pills > li > a {
+  border-radius:0;
+  background-color:grey;
+}
+
+.nav>li>a:hover{
+      color: grey;
+      background-color:white;
+}
+.nav>li>a {
+    color:white;
+}
+
+.nav-pills {
+  height:40px;
+  width:110px;
+
+}
+
 
 
 /*doc
