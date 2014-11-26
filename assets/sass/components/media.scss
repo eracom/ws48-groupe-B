@@ -100,3 +100,40 @@ category: Components - Media
   </ul>
 ```
 */
+
+
+/*doc
+---
+title: Media list hrw
+name: b-media-list2
+category: Components - Media
+---
+
+```html_example
+  <ul class="media-list">
+    <li class="media">
+      <h4 class="media-heading"><a href="#">Media heading</a></h4>
+      <div class="media-body mediahrw">
+        <p>RDC : Pour la première fois, un général congolais est condamné pour viol</p>
+        <img class="media-object" data-src="holder.js/64x64" alt="60x60" src="http://lorempixel.com/60/60/cats" style="width: 60px; height: 60px;">
+      </div>
+    </li>
+  </ul>
+```
+*/
+
+.media-list {
+  width:200px;
+}
+.media p {
+  color:$text-courant;
+  font-size:9px;
+  font-weight:700;
+  line-height:17px;
+  float:left;
+  width:130px;
+  margin-right:10px;
+}
+.media h4 a {
+  color:$name-date;
+}
