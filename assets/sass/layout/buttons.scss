@@ -25,18 +25,17 @@ category: Layout - Buttons
 
 
 .btn-primary {
-  border:1px solid #636363;
+  border:1px solid $nav-gray;
   border-radius:0px;
-  background-color:#ffffff;
+  background-color:$nav-gray;
   color:#636363;
 }
 
 .btn-primary:hover {
-  border:1px solid #636363;
+  border:1px solid $nav-gray;
   color:white;
-  background-color:#636363;
+  background-color:$nav-gray;
 }
-
 
 /*doc
 ---
