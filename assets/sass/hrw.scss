@@ -59,6 +59,27 @@ section {width: 660px;
 		 float: left;
 		 }
 
+
+
+
+aside {
+	
+	width:325px;
+	height:400px;
+	float:right;
+	margin-top:10px;
+}
+.thumbmultimedia {
+				float:left;
+
+}
+
+.sectionmultimedia {
+	background-color:$nav-gray;
+	
+	.thumbnail {
+			background-color:transparent;}
+}
 aside {width: 325px;
 	   height: 400px;
 	   float: right;}
@@ -81,5 +102,11 @@ article.onu {
 
 .text {font-size: 10px;
       color:$text-courant;
-  	  width: 200px;}
+  	  width:200px;}
+
+article.don {background-color:$name-date;
+		     height: 140px;
+		      padding-left: 10px;}
+
+
 
