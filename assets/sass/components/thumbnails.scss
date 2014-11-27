@@ -99,6 +99,7 @@ category: Components - Thumbnails
     font-size: 10px;
   }
 
+ 
   /*doc
 ---
 title: Thumbnail multimédia
@@ -132,7 +133,7 @@ category: Components - Thumbnails
 ```html_example
  <div class="col-sm-4">
     <div class="thumbnail">
-           <img src="img/pov-work.jpg" alt="Some man">
+           <img class="homme-p" src="img/pov-work.jpg" alt="Some man">
      </div>
   </div>
   
@@ -146,6 +147,10 @@ Grâce à notre campagne de sensibilisation, les votants ont décidé, à une é
     </div>
 ```
 */
+
+img.homme-p{margin-top: 50px;
+            background-color: none;}
+
 
 .imahover {
   position: relative;
@@ -192,8 +197,7 @@ p {
       color:$titles;
       text-align: justify;
       margin-bottom:5px;}
-img{height: 193px;
-    width: 290px;}
+
 
 .text {font-size: 10px;
       color:$text-courant;}

@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="../css/hrw.css">
     </head>
     <body>
-        {% block page %}{% endblock %}
         <img src="../img/hrwlogo.png" style="width:110px; height:110px;">
             <div class="btn-group">
               <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
@@ -41,6 +40,7 @@
                 <button type="button" class="btn btn-primary">Chercher</button>
                 </div>
             </div>
+            {% block page %}{% endblock %}
         <script src="../js/vendors.min.js"></script>
         <script src="../js/main.min.js"></script>
     </body>

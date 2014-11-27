@@ -34,7 +34,7 @@ category: Layout - Article
 
 ```html_example
 <article class="exemple"> 
-<h3 class='titre-ex'>Nos rapports</h3>
+<h3 class='titre-ex'>Nos rapports</h3></article>
 ```
 */
 
@@ -95,7 +95,8 @@ category: Layout - Article
 </div>
 ```
 */   
-div.row {width: 660px;}
+div.row {width: 660px;
+		background-color: white;}
 .titre-foot { font-family: 'Lucida Grande';
 			  font-size: 9pt;
 				color: $nav-gray;
