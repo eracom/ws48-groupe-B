@@ -83,19 +83,83 @@ category: Components - Thumbnails
     border: 0px;
     border-radius: 4px;
   }
-img {
- height:131px;
-  width:197px;
-}
 .thumbnail a > img, .thumbnail > img {
     height: auto;
     margin: 0px;
     max-width: 100%;
      margin-top:15px;
+     height:131px;
+    width:197px;
   }
   h3 {
     font-size: 13px;
     margin-bottom: 24px;
+}
+  p {
+    font-size: 10px;
+  }
+  /*doc
+---
+title: Thumbnail hrw2
+name: b-custom-content2
+category: Components - Thumbnails
+---
+
+```html_example
+<div class="row">
+  <div class="col-sm-5">
+      <div class="thumbnail thumbnailplus">
+           <h3>Thumbnail label</h3>
+           <div class="imahover">
+            <img src="http://lorempixel.com/290/179/cats" alt="Some cats image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim tanto opus est instrumento in optimis.</p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+```
+*/
+
+.imahover {
+  position: relative;
+}
+
+.imahover p {
+  position:absolute;
+  display:none;
+  bottom:0px;
+  left:0px;
+  background-color:rgba(0,0,0,0.5);
+  color:#fff;
+  font-size: 10px;
+  width:290px;
+  bottom: -10px;
+  padding:10px;
+}
+
+.imahover:hover p {
+  display:block;
+}
+
+
+.thumbnail {
+    border: 0px;
+    border-radius: 4px;
+  }
+
+.thumbnailplus a > img, .thumbnailplus > img {
+    height: auto;
+    margin: 0px;
+    max-width: 100%;
+     margin-top:15px;
+  
+  }
+  h3 {
+    font-size: 13px;
+    margin-bottom: 9px;
+    font-weight:700;
+    color:#fff;
 }
   p {
     font-size: 10px;
