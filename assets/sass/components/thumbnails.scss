@@ -86,7 +86,7 @@ category: Components - Thumbnails
     float:left;
   }
 
-.thumbnail h3 {
+.thumbnail>h3 {
   color:$titles;
 }
 
@@ -182,12 +182,12 @@ Grâce à notre campagne de sensibilisation, les votants ont décidé, à une é
     margin-top:15px;
   
   }
-h3 {
+.thumbnail h3 {
     font-family: 'Lucida Grande';
     font-size: 13px;
     margin-bottom: 9px;
     font-weight:700;
-    color:#fff;
+    color:$titles;
 }
 p {
     font-size: 10px;
