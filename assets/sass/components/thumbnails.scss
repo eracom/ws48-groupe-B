@@ -82,14 +82,20 @@ category: Components - Thumbnails
 .thumbnail {
     border: 0px;
     border-radius: 4px;
+    width:190px;
+    float:left;
   }
+
+.thumbnail h3 {
+  color:$titles;
+}
+
+
 .thumbnail a > img, .thumbnail > img {
     height: auto;
     margin: 0px;
     max-width: 100%;
-     margin-top:15px;
-     height:131px;
-    width:197px;
+    margin-top:15px;
   }
   h3 {
     font-size: 13px;
@@ -192,9 +198,11 @@ p {
       color:$titles;
       text-align: justify;
       margin-bottom:5px;}
-img{height: 193px;
+.thumbnailplus img{
+    height: 193px;
     width: 290px;}
 
 .text {font-size: 10px;
-      color:$text-courant;}
+      color:$text-courant;
+  }
 

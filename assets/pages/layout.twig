@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="../css/hrw.css">
     </head>
     <body>
-        {% block page %}{% endblock %}
         <img src="../img/hrwlogo.png" style="width:110px; height:110px;">
             <div class="btn-group">
               <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
@@ -29,11 +28,11 @@
             </div><br>
             <div class="headerhrw">
             <ul class="nav nav-pills nav-justified">
-              <li class="active"><a href="#">Accueil</a></li>
-              <li><a href="#">Nos actions</a></li>
+              <li class="active"><a href="index.html">Accueil</a></li>
+              <li><a href="actions.html">Nos actions</a></li>
               <li><a href="#">Actualités</a></li>
               <li><a href="#">Rapports</a></li>
-              <li><a href="#">Multimédia</a></li>
+              <li><a href="multimedia.html">Multimédia</a></li>
               <li><a href="#">A propos</a></li>
             </ul>
                 <div class="search">
@@ -41,6 +40,8 @@
                 <button type="button" class="btn btn-primary">Chercher</button>
                 </div>
             </div>
+            {% block page %}{% endblock %}
+            
         <script src="../js/vendors.min.js"></script>
         <script src="../js/main.min.js"></script>
     </body>

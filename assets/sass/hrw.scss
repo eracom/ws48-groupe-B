@@ -51,8 +51,25 @@
 body {
 	width:995px;
 	margin:0 auto;
-
+	background-color: $background-gray;
 }
+
+section {
+	width:660px;
+	height:500px;
+	float:left;
+	margin-top:10px;
+}
+
+aside {
+	background-color: blue;
+	width:325px;
+	height:400px;
+	float:right;
+	margin-top:10px;
+}
+
+
 
 
 

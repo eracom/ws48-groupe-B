@@ -39,9 +39,10 @@ category: Layout - Article
 */
 
 article.exemple {
-				 width: 660px;
-				 height: 400px;
-				 background-color: white;}
+				width: 660px;
+				background-color: white;
+				padding:5px;
+				}
 
 .titre-ex {
 	    border-bottom:1px solid $nav-gray;
