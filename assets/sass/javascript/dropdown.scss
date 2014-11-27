@@ -31,7 +31,7 @@ category: JavaScript - Dropdown
 ---
 
 ```html_example
-<div class="btn-group">
+<div class="btn-group btnddhrw">
   <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
     Action <span class="caret"></span>
   </button>
@@ -39,12 +39,20 @@ category: JavaScript - Dropdown
     <li><a href="#">Action</a></li>
     <li><a href="#">Another action</a></li>
     <li><a href="#">Something else here</a></li>
-    <li class="divider"></li>
-    <li><a href="#">Separated link</a></li>
   </ul>
 </div>
 ```
 */
+
+.btn-group, .btn-group-vertical {
+  float:right;
+  margin-top:90px;
+}
+
+.dropdown-menu {
+  padding-left:5px;
+  font-size:9px;
+}
 
 
 

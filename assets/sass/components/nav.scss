@@ -65,26 +65,33 @@ category: Components - Nav
 */
 
 .nav-pills li.active a {
-      background-color:grey;
+      background-color:white;
+      color:$nav-gray;
+}
+
+.nav-pills li.active a:hover {
+      background-color:white;
+      color:$nav-gray;
 }
 
 .nav-pills > li > a {
   border-radius:0;
-  background-color:grey;
+  background-color:$nav-gray;
 }
 
 .nav>li>a:hover{
-      color: grey;
+      color:$nav-gray;
       background-color:white;
 }
 .nav>li>a {
     color:white;
+    padding:10px 14px;
+    border-right: 1px solid white;
 }
 
 .nav-pills {
-  height:40px;
   width:110px;
-
+  height:40px;
 }
 
 
