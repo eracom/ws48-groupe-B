@@ -49,3 +49,64 @@ article.exemple {
 	    padding-bottom: 4px;
 	    color:$nav-gray;
 	    font-family: 'Lucida Grande';}
+
+
+/*doc
+---
+title: footer
+name: foofoo
+category: Layout - Article
+---
+
+```html_example
+<article class="exemple"> 
+<h3 class='titre-foot'>Thèmes</h3>
+<div class='row'>
+<div class="col-xs-6 col-md-4">
+<ul class="list-footer">
+  <li class="list-footer-item"><a href='#'>Armes</a></li>
+  <li class="list-footer-item"><a href='#'>Monde de l’entreprise</a></li>
+  <li class="list-footer-item"><a href='#'>Droits de l’enfant</a></li>
+  <li class="list-footer-item"><a href='#'>Lutte antiterroriste</a></li>
+  <li class="list-footer-item"><a href='#'>Droits des personnes handicapées</a></li>
+  <li class="list-footer-item"><a href='#'>Environnement</a></li>
+</ul>
+</div>
+<div class="col-xs-6 col-md-4">
+<ul class="list-footer">
+  <li class="list-footer-item"><a href='#'>Droits économiques, sociaux et culturels</li>
+  <li class="list-footer-item"><a href='#'>Free Speech</li>
+  <li class="list-footer-item"><a href='#'>Santé</li>
+  <li class="list-footer-item"><a href='#'>Justice internationale</li>
+  <li class="list-footer-item"><a href='#'>Droits LGBT</li>
+  <li class="list-footer-item"><a href='#'>Drois des migrants</li>
+ 
+</ul>
+</div>
+<div class="col-xs-6 col-md-4">
+<ul class="list-footer">
+  <li class="list-footer-item"><a href='#'>Réfugiés</a></li>
+  <li class="list-footer-item"><a href='#'>Terrorisme</a></li>
+  <li class="list-footer-item"><a href='#'>Torture</a></li>
+  <li class="list-footer-item"><a href='#'>Nation Unies</a></li>
+  <li class="list-footer-item"><a href='#'>Droits des femmes</a></li>
+ 
+</ul>
+</div>
+</div>
+```
+*/   
+div.row {width: 660px;}
+.titre-foot { font-family: 'Lucida Grande';
+			  font-size: 9pt;
+				color: $nav-gray;
+				margin-bottom: 10px;}
+
+
+
+.list-footer-item {font-size: 9pt;
+				   color: $text-footer;
+				   list-style-type: none;}
+
+a {text-decoration: none;}				   
+a:hover{color:$name-date;}

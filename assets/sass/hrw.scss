@@ -68,8 +68,17 @@ aside {
 	float:right;
 	margin-top:10px;
 }
+.thumbmultimedia {
+				float:left;
 
+}
 
+.sectionmultimedia {
+	background-color:$nav-gray;
+	.thumbnail {
+			background-color:transparent;
+	}
+}
 
 
 
