@@ -36,8 +36,13 @@ category: Components - Breadcrumb
 	background-color: $nav-gray;
 	border-radius:0px;
 	font-size: 11px;
+  margin-bottom:0px;
 }
 
 .breadcrumb2 a {
 	color:#ffffff;
+
+}
+.breadcrumb {
+  margin-top:44px;
 }
