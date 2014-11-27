@@ -68,7 +68,7 @@ category: Components - Thumbnails
 <div class="row">
   <div class="col-sm-3">
     <div class="thumbnail">
-           <h3>Thumbnail label</h3>
+           <h3 class="titrerapport">Thumbnail label</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim tanto opus est instrumento in optimis.</p>
       <img src="http://lorempixel.com/300/300/cats" alt="Some cats image">
       <div class="caption">
@@ -91,7 +91,8 @@ category: Components - Thumbnails
      height:131px;
     width:197px;
   }
-  h3 {
+  .titrerapport {
+    color:$titles;
     font-size: 13px;
     margin-bottom: 24px;
 }
@@ -192,9 +193,23 @@ p {
       color:$titles;
       text-align: justify;
       margin-bottom:5px;}
-img{height: 193px;
+.thumbnail img {
+    height: 193px;
     width: 290px;}
 
 .text {font-size: 10px;
       color:$text-courant;}
+
+
+.thumbmultimedia {
+        float:left;
+
+}
+
+.sectionmultimedia {
+  background-color:$nav-gray;
+  .thumbnail {
+      background-color:transparent;
+  }
+}
 

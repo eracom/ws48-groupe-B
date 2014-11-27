@@ -53,8 +53,17 @@ body {
 	margin:0 auto;
 
 }
+.thumbmultimedia {
+				float:left;
 
+}
 
+.sectionmultimedia {
+	background-color:$nav-gray;
+	.thumbnail {
+			background-color:transparent;
+	}
+}
 
 
 
