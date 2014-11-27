@@ -39,10 +39,16 @@ category: Layout - Article
 */
 
 article.exemple {
-				width: 660px;
-				background-color: white;
+
+				 width: auto;
+				 height: 400px;
+				 background-color: white;
 				padding:5px;
 				}
+
+article h3 {
+  font-size:13px;
+}
 
 .titre-ex {
 	    border-bottom:1px solid $nav-gray;
@@ -61,7 +67,7 @@ category: Layout - Article
 ```html_example
 <article class="exemple"> 
 <h3 class='titre-foot'>Thèmes</h3>
-<div class='row'>
+<div class='row footerblock'>
 <div class="col-xs-6 col-md-4">
 <ul class="list-footer">
   <li class="list-footer-item"><a href='#'>Armes</a></li>
@@ -96,18 +102,31 @@ category: Layout - Article
 </div>
 ```
 */   
+
 div.row {width: 660px;
 		background-color: white;}
+
+
 .titre-foot { font-family: 'Lucida Grande';
 			  font-size: 9pt;
 				color: $nav-gray;
-				margin-bottom: 10px;}
-
-
+				margin-bottom: 10px;
+      }
+article.exemple {
+    height: 200px;
+  }
+  .copyright {
+    text-align:center;
+    margin-top:12px;
+  }
 
 .list-footer-item {font-size: 9pt;
 				   color: $text-footer;
 				   list-style-type: none;}
 
-a {text-decoration: none;}				   
+a {text-decoration: none;}
+
+footer h3 {
+  margin-top:0px;
+}				   
 a:hover{color:$name-date;}
