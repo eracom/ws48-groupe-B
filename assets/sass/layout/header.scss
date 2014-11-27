@@ -1,0 +1,73 @@
+/*doc
+---
+title: Header hrw
+name: a-header
+category: Layout - Header Hrw
+---
+
+```html_example
+<img src="../img/hrwlogo.png" style="width:110px; height:110px;">
+<div class="btn-group">
+  <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+    Langues <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+    <li><a href="#">Anglais</a></li>
+    <li><a href="#">Français</a></li>
+    <li><a href="#">Espagnol</a></li>
+    <li><a href="#">Allemand</a></li>
+    <li><a href="#">Italien</a></li>
+    </ul>
+</div><br>
+<div class="headerhrw">
+<ul class="nav nav-pills nav-justified">
+  <li class="active"><a href="#">Accueil</a></li>
+  <li><a href="#">Nos actions</a></li>
+  <li><a href="#">Actualités</a></li>
+  <li><a href="#">Rapports</a></li>
+  <li><a href="#">Multimédia</a></li>
+  <li><a href="#">A propos</a></li>
+</ul>
+	<div class="search">
+	<input type="text" class="form-control">
+	<button type="button" class="btn btn-primary">Chercher</button>
+	</div>
+</div>
+```
+*/
+
+.headerhrw {
+	width:995px;
+	height:39px;
+	background-color: $nav-gray;
+}
+
+.headerhrw ul{
+	width:710px;
+	height:38px;
+	font-size: 13px;
+	float:left;
+}
+
+.headerhrw .form-control {
+	width:160px;
+	display:inline;
+	float:left;
+	margin-top:6px;
+}
+
+.search {
+	margin-right:5px;
+	height:38px;
+	background:$nav-gray;
+	float:right;
+}
+
+.search>.btn-primary {
+	width:48px;
+	height:27px;
+	margin-top:5px;
+	font-size: 8px;
+	font-weight: 700;
+	float:left;
+}
