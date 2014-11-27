@@ -51,8 +51,12 @@ category: Components - List group
 ```
 */
 
-.list-group-item:first-child {border-bottom-left-radius:none;
-                              border-bottom-right-radius:none; 
+.list-group1 {
+  margin-left:-40px;
+  border:none;
+}
+
+.list-group-item:first-child { 
                               border-color:$nav-gray;
                               font-size: 12pt;
                               color:$nav-gray;
@@ -66,7 +70,6 @@ category: Components - List group
                   border-top: none; 
                   width: 325px;
                   border-bottom-width:2px;
-                  padding-bottom:0px;
                   padding-top: 2px;}
 
 h4.titre {font-family:'Lucida Grande';

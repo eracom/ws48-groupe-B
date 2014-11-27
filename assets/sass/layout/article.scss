@@ -39,9 +39,16 @@ category: Layout - Article
 */
 
 article.exemple {
+
 				 width: auto;
 				 height: 400px;
-				 background-color: white;}
+				 background-color: white;
+				padding:5px;
+				}
+
+article h3 {
+  font-size:13px;
+}
 
 .titre-ex {
 	    border-bottom:1px solid $nav-gray;

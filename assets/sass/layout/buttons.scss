@@ -81,6 +81,16 @@ category: Layout - Buttons
 ```
 */
 
+.btn-lg {
+  width:140px;
+  margin-right: 70px;
+  font-size:11px;
+  margin-bottom: 10px;
+}
+
+.btn-lg:last-child {
+  margin-right:0px;
+}
 
 /*doc
 ---

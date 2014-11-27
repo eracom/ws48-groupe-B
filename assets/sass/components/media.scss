@@ -124,7 +124,14 @@ category: Components - Media
 
 .media-list {
   width:200px;
+  float:left;
+  margin-right:25px;
 }
+
+.media-list:last-child {
+  margin-right:0px;
+}
+
 .media p {
   color:$text-courant;
   font-size:9px;
@@ -135,5 +142,6 @@ category: Components - Media
   margin-right:10px;
 }
 .media h4 a {
+  font-size:14px;
   color:$name-date;
 }
