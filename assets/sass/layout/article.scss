@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*doc
+---
+title: Article de base
+name: a-article
+category: Layout - Article
+---
+
+```html_example
+<button type="button" class="btn btn-primary">Primary</button>
+```
+
+
+| Preview                                                        | Class                      |
+|----------------------------------------------------------------|----------------------------|
+| <button type="button" class="btn btn-default">Default</button> | <pre>btn btn-default</pre> |
+| <button type="button" class="btn btn-primary">Primary</button> | <pre>btn btn-primary</pre> |
+| <button type="button" class="btn btn-success">Success</button> | <pre>btn btn-success</pre> |
+| <button type="button" class="btn btn-info">Info</button>       | <pre>btn btn-info</pre>    |
+| <button type="button" class="btn btn-warning">Warning</button> | <pre>btn btn-warning</pre> |
+| <button type="button" class="btn btn-danger">Danger</button>   | <pre>btn btn-danger</pre>  |
+| <button type="button" class="btn btn-link">Link</button>       | <pre>btn btn-link</pre>    |
+*/
+
+
+
+/*doc
+---
+title: Article exemple
+name: article-1
+category: Layout - Article
+---
+
+```html_example
+<article class="exemple"> 
+<h3 class='titre-ex'>Nos rapports</h3>
+```
+*/
+
+article.exemple {
+				 width: 660px;
+				 height: 400px;
+				 background-color: white;}
+
+.titre-ex {
+	    border-bottom:1px solid $nav-gray;
+	    padding-bottom: 4px;
+	    color:$nav-gray;
+	    font-family: 'Lucida Grande';}
